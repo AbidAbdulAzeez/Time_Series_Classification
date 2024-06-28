@@ -180,6 +180,8 @@ classifiers = [DecisionTreeClassifier(),
 <p align="center">
   <img width="720" height="600" src="https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/88e1261e-e115-416a-a49a-42a1e771f7c7">
 </p>
+
+**Authors:** Abid Abdul Azeez, Iiris Keinonen, Danila Goncharenko
     
 **Paper link:**  [AI-Based Condition Monitoring of Hydraulic Valves in Zonal Hydraulics Using Simulated Electric Motor Signals](https://doi.org/10.1115/FPMC2021-68615)
 
