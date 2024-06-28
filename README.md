@@ -172,13 +172,13 @@ classifiers = [DecisionTreeClassifier(),
  ## Sample results - confusion matrix for all signals
 
 <p align="center">
-  <img width="720" height="600" src="https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/af450516-fad2-42e5-adfe-f7d52f239412">
+  <img width="600" height="600" src="https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/af450516-fad2-42e5-adfe-f7d52f239412">
 </p>
 
  ## Sample results - confusion matrix for electric signals
  
 <p align="center">
-  <img width="720" height="600" src="https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/88e1261e-e115-416a-a49a-42a1e771f7c7">
+  <img width="600" height="600" src="https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/88e1261e-e115-416a-a49a-42a1e771f7c7">
 </p>
 
 **Authors:** Abid Abdul Azeez, Iiris Keinonen, Danila Goncharenko
