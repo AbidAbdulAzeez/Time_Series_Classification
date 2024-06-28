@@ -173,7 +173,7 @@ classifiers = [DecisionTreeClassifier(),
  ## Sample results - confusion matrix
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/af450516-fad2-42e5-adfe-f7d52f239412">
+  <img width="720" height="600" src="https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/af450516-fad2-42e5-adfe-f7d52f239412">
 </p>
 
 <p align="center">
