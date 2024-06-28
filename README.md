@@ -9,14 +9,6 @@ In this study, fault classification was performed using multiclass classificatio
 ![Framework](https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/215ea439-7ffb-4f53-9fbf-63849c5cda57)
 
 
-
-## Sample results - confusion matrix
-
-
-![DT_cm_all](https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/af450516-fad2-42e5-adfe-f7d52f239412)
-![DT_cm_electric](https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/88e1261e-e115-416a-a49a-42a1e771f7c7)
-
-
 ## Provided data
 
 The data was obtained from a simulated model of a hydraulic system. The data consists of the following signals:
@@ -176,7 +168,13 @@ classifiers = [DecisionTreeClassifier(),
 - *Step 5*: Two confusion matrices are produced as an example.  
 - *Step 6*: A comparison between different sizes of feature sets is made.
 - *Step 7*: Memory profiling is performed using the code file *Training_for_memory_profiling.py*.
-    - Results are saved in separate text files in the same location as the code is run at.  
+    - Results are saved in separate text files in the same location as the code is run at.
+
+ ## Sample results - confusion matrix
+
+
+![DT_cm_all](https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/af450516-fad2-42e5-adfe-f7d52f239412)
+![DT_cm_electric](https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/88e1261e-e115-416a-a49a-42a1e771f7c7)
     
 **Paper link:**  TO BE UPDATED AFTER PUBLICATION
 
