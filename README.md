@@ -176,7 +176,9 @@ classifiers = [DecisionTreeClassifier(),
   <img width="460" height="300" src="https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/af450516-fad2-42e5-adfe-f7d52f239412">
 </p>
 
-![DT_cm_electric](https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/88e1261e-e115-416a-a49a-42a1e771f7c7)
+<p align="center">
+  <img width="1000" height="800" src="[https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/af450516-fad2-42e5-adfe-f7d52f239412](https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/88e1261e-e115-416a-a49a-42a1e771f7c7)">
+</p>
     
 **Paper link:**  [AI-Based Condition Monitoring of Hydraulic Valves in Zonal Hydraulics Using Simulated Electric Motor Signals](https://doi.org/10.1115/FPMC2021-68615)
 
