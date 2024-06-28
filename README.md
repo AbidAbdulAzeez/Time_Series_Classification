@@ -77,7 +77,7 @@ The data handling is done using Numpy and Pandas libraries, the classifier imple
 #### 2. Download the data and code files
 
 #### 3. Run the codes
-**a. Run *Preprocessing.ipynib*.**  
+**a. Run *Preprocessing.ipynb*.**  
 - Specify the corresponding file paths to the folder you have the data in. Also check where the preprocessed data will be saved.  
 - Example of how files from a folder "Raw_data" are read in this code:
 ```
