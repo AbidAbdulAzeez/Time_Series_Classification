@@ -1,33 +1,32 @@
-# Optimizing time-series multi-class classification utilizing feature evaluation methods
+# Optimizing Time-Series Multi-Class Classification Utilizing Feature Evaluation Methods
 
 ## Summary
 
-In this study, fault classification was performed using multiclass classification with the aim of optimizing the used features and required computational power. Feature evaluation and selection was performed in two ways: calculating statistical **p-values** for each feature, and utilizing a **Minimum Redundance - Maximum Relevance** (**mRMR**) algorithm. Feature sets of different sizes were evaluated in terms of classification accuracy and computational performance.
+Fault classification is performed using multi-class classification by optimizing the extracted features and required computational power. Feature evaluation and selection was performed in two ways: calculating statistical **p-values** for each feature, and utilizing a **Minimum Redundance - Maximum Relevance** (**mRMR**) algorithm. Feature sets of different sizes were evaluated in terms of classification accuracy and computational performance.
 
 ## Method
 
 ![Framework](https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/215ea439-7ffb-4f53-9fbf-63849c5cda57)
-
 
 ## Provided data
 
 The data was obtained from a simulated model of a hydraulic system. The data consists of the following signals:
 - Motor-pump speed reference (MREF)
 - Motor-pump speed response (MRES)
-- Current responses of the motor (U, V, W)
-- Piston and rod side pressures (PSP, RSP)
+- Current phases of the motor (U, V, W)
+- Piston and rod-side pressures (PSP, RSP)
 - Accumulator pressure (AP).
 
-The measurements consist of 12 fault cases of a check valve and 1 healthy case. Each data file has 50 000 samples with sample time of 1ms. The classes are:
+The measurements consist of 12 fault classes of a check valve and 1 healthy class. The fault classes are of 4 types and 3 levels of severity each. Each data file has 50,000 data instances. The classes are:
 - Leakage: L1, L2, L3
 - Friction: F1, F2, F3
 - Spring: SP1, SP2, SP3
 - Stiction: ST1, ST2, ST3
-- Healthy: H.
+- Healthy: H
 
 ## Preprocessing and feature extraction
 
-The data preprocessing is implemented in Preprocessing.ipynib, where statistical features are calculated from the data using sliding window technique. The extracted statistical features include: mean, medium, variance, standard deviation, minimum, maximum, etc. These features are calculated from each signal. In the code, it is possible to change the size of the windows, and the step size between windows.
+The data preprocessing is implemented in Preprocessing.ipynib, where statistical features are calculated from the data using sliding window technique. The extracted statistical features include:the minimum value, the maximum value, mean, median, standard deviation, variance, skewness, kurtosis, sum of values, sum over squared values, first location of maximum, last location of maximum, first location of minimum, last location of minimum, sum over absolute value of consecutive changes,  and mean over absolute value of consecutive changes. These features are calculated for each signal. In the code, it is possible to change the size of the windows, and the slide between windows.
 
 After feature extraction, the new data can be saved individually for each signal and also as one file combining all data.
 
@@ -41,7 +40,7 @@ Filter methods use the statistical properties of the data to measure feature per
 
 #### Univariate methods
 
-These rank features separately by their relations with the outcome variable, in this case the classes. They do this regardless of other classes. For classification, one possible implementation is to calculate **p-values**. They measure the probability that there is no relationship between a specific feature and a fault type.
+This method ranks features separately by their relations with the outcome variable, which in this case are the classes. They do this regardless of other classes. For classification, one possible implementation is to calculate **p-values**. They measure the probability that there is no relationship between a specific feature and a fault type.
 
 #### Multivariate methods
 
