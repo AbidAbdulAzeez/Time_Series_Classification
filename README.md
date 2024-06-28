@@ -26,7 +26,7 @@ The measurements consist of 12 fault classes of a check valve and 1 healthy clas
 
 ## Preprocessing and feature extraction
 
-The data preprocessing is implemented in Preprocessing.ipynb, where statistical features are calculated from the data using sliding window technique. The extracted statistical features include:the minimum value, the maximum value, mean, median, standard deviation, variance, skewness, kurtosis, sum of values, sum over squared values, first location of maximum, last location of maximum, first location of minimum, last location of minimum, sum over absolute value of consecutive changes,  and mean over absolute value of consecutive changes. These features are calculated for each signal. In the code, it is possible to change the size of the windows, and the slide between windows.
+The data preprocessing is implemented in Preprocessing.ipynb, where statistical features are calculated from the data using sliding window technique. The extracted statistical features include: the minimum value, the maximum value, mean, median, standard deviation, variance, skewness, kurtosis, sum of values, sum over squared values, first location of maximum, last location of maximum, first location of minimum, last location of minimum, sum over absolute value of consecutive changes,  and mean over absolute value of consecutive changes. These features are calculated for each signal. In the code, it is possible to change the size of the windows, and the slide between windows.
 
 After feature extraction, the new data can be saved individually for each signal and also as one file combining all data.
 
