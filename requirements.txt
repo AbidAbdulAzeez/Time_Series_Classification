@@ -1,0 +1,12 @@
+###### Requirements with Version Specifiers ######
+numpy == 1.26.4
+pandas == 2.1.4
+scikit-learn == 1.2.2
+matplotlib == 3.8.0
+lightgbm == 4.3.0
+tsfresh == 0.20.2
+tensorflow == 2.16.1
+seaborn == 0.13.2
+###### Requirements without Version Specifiers ######
+mrmr_selection
+memory_profiler

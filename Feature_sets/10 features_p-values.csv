@@ -1,0 +1,11 @@
+﻿features
+AP mean_abs_change
+AP abs_sum_of_changes
+RSP kurtosis
+RSP abs_sum_of_changes
+RSP mean_abs_change
+RSP median
+PSP skewness
+PSP variance
+PSP standard_deviation
+RSP last_location_of_maximum
