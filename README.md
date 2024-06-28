@@ -184,7 +184,7 @@ classifiers = [DecisionTreeClassifier(),
     
 **Paper link:**  [AI-Based Condition Monitoring of Hydraulic Valves in Zonal Hydraulics Using Simulated Electric Motor Signals](https://doi.org/10.1115/FPMC2021-68615)
 
-**Note:** If you use the code or data provided here, please refer to this paper.  
+**Note:** If you use the code or data provided here, please refer to the above paper.  
 
 **Bibtex:**  
 
