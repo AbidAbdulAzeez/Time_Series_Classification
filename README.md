@@ -1,4 +1,4 @@
-# Optimizing timeseries multiclass classification utilizing feature evaluation methods
+# Optimizing time-series multi-class classification utilizing feature evaluation methods
 
 ## Summary
 
