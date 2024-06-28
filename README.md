@@ -176,14 +176,24 @@ classifiers = [DecisionTreeClassifier(),
 ![DT_cm_all](https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/af450516-fad2-42e5-adfe-f7d52f239412)
 ![DT_cm_electric](https://github.com/AbidAbdulAzeez/Time_Series_Classification/assets/81526615/88e1261e-e115-416a-a49a-42a1e771f7c7)
     
-**Paper link:**  TO BE UPDATED AFTER PUBLICATION
+**Paper link:**  [AI-Based Condition Monitoring of Hydraulic Valves in Zonal Hydraulics Using Simulated Electric Motor Signals](https://doi.org/10.1115/FPMC2021-68615)
 
 **Note:** If you use the code or data provided here, please refer to this paper.  
 
 **Bibtex:**  
 
 ```
-@article{
-
+@proceedings{10.1115/FPMC2021-68615,
+    author = {Abdul Azeez, Abid and Han, Xu and Zakharov, Viacheslav and Minav, Tatiana},
+    title = "{AI-Based Condition Monitoring of Hydraulic Valves in Zonal Hydraulics Using Simulated Electric Motor Signals}",
+    volume = {ASME/BATH 2021 Symposium on Fluid Power and Motion Control},
+    series = {Fluid Power Systems Technology},
+    pages = {V001T01A016},
+    year = {2021},
+    month = {10},
+    abstract = "{Zonal hydraulics, in particular Direct Driven Hydraulics (DDH), is an emerging transmission and actuation technique that is proposed to be used for electrification of heavy-duty mobile machinery. In addition to the already demonstrated advantages of DDH, which include high efficiency, compactness, and ease of maintenance, it is also capable of condition monitoring. The condition monitoring features can be obtained through indirect analysis of the existing electric motor signals (voltage and current) using artificial intelligence-based algorithms rather than by adding extra sensors, which are normally required for conventional realization. In this paper, the valve condition monitoring method of the DDH through electrical motor signals is explored at an early development stage. Firstly, the hydraulic valve models, which involve the valve fault behaviors, are added to the basic DDH model. Secondly, healthy and faulty scenarios for the valves are simulated, and the data are generated. Thirdly, the preliminary artificial intelligence-based condition monitoring classifier is developed using the simulation data, including feature extraction, algorithm training, testing, and comparison of accuracy. The effects of modeling error on developing the condition monitoring function are analyzed. In conclusion, the preliminary outcomes for the valve condition monitoring of the DDH are achieved by taking advantage of modeling and simulation and by utilizing the existing electric motor signals.}",
+    doi = {10.1115/FPMC2021-68615},
+    url = {https://doi.org/10.1115/FPMC2021-68615},
+    eprint = {https://asmedigitalcollection.asme.org/FPST/proceedings-pdf/FPMC2021/85239/V001T01A016/6811428/v001t01a016-fpmc2021-68615.pdf},
 }
 ```
